@@ -1,11 +1,11 @@
-//ROCK PAPER SCISSORS GAME DEGIGNED BY FURKAN ASKIN
-#include <iostream>
-#include <string>
+    //ROCK PAPER SCISSORS GAME DEGIGNED BY FURKAN ASKIN
+    #include <iostream>
+    #include <string>
 
-using namespace std;
+    using namespace std;
 
-// Lets create a function to determine the winner  fallow my code
-string determineWinner(string player1, string player2) {
+    // Lets create a function to determine the winner  fallow my code
+    string determineWinner(string player1, string player2) {
     if (player1 == player2) {
         return "It's a tie!";
     } else if (
@@ -17,9 +17,9 @@ string determineWinner(string player1, string player2) {
     } else {
         return "Player 2 wins!";
     }
-}
+    }
 
-int main() {
+    int main() {
     string choicePlayer1, choicePlayer2;
 
     cout << "Player 1, enter your choice (rock, paper, scissors): ";
